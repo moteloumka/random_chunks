@@ -41,7 +41,7 @@ def save_frames_from_video(video_path):
             cv2.imwrite(frame_output_path, frame)
 
             # Increment the second counter
-            second += 1
+            second += 2
 
         # Move to the next second's frame
         frame_count += fps
